@@ -1,0 +1,2 @@
+recursive-include uploader_widget/static *.*
+include uploader_widget.json

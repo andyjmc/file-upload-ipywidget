@@ -1,0 +1,24 @@
+.uploader-widget{
+    border: dashed 2px grey;
+    opacity: 0.6;
+    background-color: #efefef;
+    color: grey;
+    position: relative;
+}
+.uploader-widget.uploader-dragged {
+    background-color: #333;
+    color: white;
+}
+.uploader-widget input{
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+.uploader-widget .uploader-label {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
